@@ -7,7 +7,7 @@ To implement version control workflows using **Git** and **GitHub**, applying st
 
 ---
 
-## ✅ What I Did — Step-by-Step
+## ✅ Step-by-Step explanation of what i have done
 
 
 ### 1. 🗂️ Project Initialization
