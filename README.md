@@ -16,8 +16,9 @@ To implement version control workflows using **Git** and **GitHub**, applying st
 
 - Cloned it to my local system using:
 
-  ```bash
-  git clone https://github.com/Hyghen/DevOps-Git-Project.git
+  
+       -- git clone https://github.com/Hyghen/DevOps-Git-Project.git
+
 
 2. 🌱 Branching Strategy
 Created the following branches:
@@ -30,25 +31,35 @@ feature/<feature-name> → feature-specific work
 
 Example:
 
--- git checkout -b dev
+      -- git checkout -b dev
 
--- git push -u origin dev
+      -- git push -u origin dev
 
--- git checkout -b feature/login
+      -- git checkout -b feature/login
 
--- git push -u origin feature/login
+      -- git push -u origin feature/login
+
+
 
 3. 📝 Pull Request Workflow
 Worked in feature/ branches.
 
 Created Pull Requests to merge into dev.
 
+
+
 <img width="1192" height="265" alt="Screenshot 2025-08-08 133622" src="https://github.com/user-attachments/assets/1dd2f23e-7e2b-4233-862f-2027302fce50" />
+
+
 
 
 Merged dev into main after testing and review.
 
+
+
 <img width="1221" height="613" alt="Screenshot 2025-08-08 133706" src="https://github.com/user-attachments/assets/241afb3f-cc45-4560-bac2-e7a833ef46dd" />
+
+
 
 
 4. 📁 Git Best Practices Used
@@ -58,12 +69,15 @@ Used commit messages that are clean, descriptive, and atomic.
 
 Tagged major milestones using:
 
--- git tag -a v1.0 -m "Initial release"
+     -- git tag -a v1.0 -m "Initial release"
+
 
 <img width="1028" height="142" alt="Screenshot 2025-08-08 134355" src="https://github.com/user-attachments/assets/996ba8c7-9ec8-42d4-a7c4-fb6e32481f10" />
 
 
---git push origin v1.0
+     
+     --git push origin v1.0
+
 
 5. 📄 Documentation
 
@@ -77,19 +91,21 @@ README.md → Project explanation
 
 feature/, dev/, main → Properly structured branches for clean Git flow
 
+
+
 🚀 Tools Used
 
-Git
+-- Git
+-- GitHub
+-- VS Code / Git bash
 
-GitHub
-
-VS Code / Git bash
 
 👨‍💻 Author
 
 Chitransh Jangid
-
 DevOps Engineer
+
+
 
 📌 Repository Link
 
